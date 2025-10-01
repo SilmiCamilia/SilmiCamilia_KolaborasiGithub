@@ -14,6 +14,9 @@ public class ifCetakKRSNoPresensi {
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
             
         }
+        else{
+            System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
+        }
     }
 }
 
