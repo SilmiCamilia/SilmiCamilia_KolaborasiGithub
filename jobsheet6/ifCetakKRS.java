@@ -2,13 +2,12 @@ package jobsheet6;
 
 import java.util.Scanner;
 
-public class ifElseCetakKRS {
+public class ifCetakKRS{
     public static void main(String[] args) {
         Scanner imup = new Scanner(System.in);
         System.out.println("--- Cetak KRS Siakad ---");
-        System.out.println("Masukkan semester saat ini: ");
+        System.out.print("Masukkan semester saat ini: ");
         int semester = imup.nextInt();
-
         if (semester == 1) {
             System.out.println("KRS Semester 1 ditampilkan");
         } else if (semester == 2) {
@@ -28,7 +27,4 @@ public class ifElseCetakKRS {
         } else {
             System.out.println("Semester tidak valid");
         }
-    }
-}
-
-
+    }}

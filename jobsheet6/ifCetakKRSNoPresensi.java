@@ -8,12 +8,12 @@ public class ifCetakKRSNoPresensi {
         System.out.println("--- Cetak Krs SIAKAD ---");
         System.out.println("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = imup.nextBoolean();
-        String pesan = uktLunas 
+        String pesann = uktLunas 
                         ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA"
                         : "Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
 
         System.out.println("\n=== Versi Ternary ===");
-        System.out.println(pesan);
+        System.out.println(pesann);
 
         imup.close();
     }}
