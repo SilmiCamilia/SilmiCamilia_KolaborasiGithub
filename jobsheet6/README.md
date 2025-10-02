@@ -1,4 +1,7 @@
 Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan operator relasional? = karena tipe data nya boolean yang memiliki nilai hanya true or false
 Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya? = program akan berhenti karena belum diberikan percabangan else untuk nilai false
 Apa fungsi dari sintaks break? = untuk menghentikan looping antar case
-Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? = sebagai opsi jika tidak ada satupun cvase yg cocok
+Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? = sebagai opsi jika tidak ada satupun case yg cocok
+Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian? = Jika mahasiswa menjawab "No", maka output: "Gagal! Mahasiswa masih memiliki tanggungan kompen." Karena syarat utama bebas kompen tidak terpenuhi, log bimbingan tidak akan dicek.
+Jelaskan maksud dari potongan kode berikut! = if (bimbinganP1 >=8 && bimbinganP2 >= 4) berguna untuk jika bimbinganP1 mmiliki nilai lebih dari sama dengan 8 dan bimbinganP2 memiliki nilai lebih dari sama dengan 4 akan memilih percabangan if else tersebut.
+Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut! = Langkah 1: Cek bebas kompen. Jika tidak bebas → gagal.Langkah 2: Jika bebas → cek log bimbingan: P1 ≥ 8 dan P2 ≥ 4 → boleh daftar. P1 < 8 dan P2 < 4 → gagal keduanya. P1 < 8 → gagal P1. P2 < 4 → gagal P2.
